@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check (that tweet) Yo Self</title>
+	<style>
+	.center {
+		margin: auto;
+  	width: 50%;
+  	padding: 10px;
+	}
+.label {
+	color: darkslategrey;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body {
+  background-color: AliceBlue;
+}
+
+h1 {
+  color: lightblue;
+  margin-left: 40px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+</style>
+</head>
+<body>
+	<form action="/submit">
+<div class = 'center'>
+<img src="{{url_for('static', filename='header.png')}}" alt="Check that tweet yo self">
+		<p>
+			<label for="word" class = 'label'>Keyword/Topic</label><br>
+			<input type="string" name="word">
+		</p>
+		<p>
+			<label for="date" class = 'label'>Date (yyyy-mm-dd)</label><br>
+			<input type="string" name="date">
+		</p>
+		<p>
+			<label for="number" class = 'label'>Number of Tweets</label><br>
+			<input type="number" name="number">
+		</p>
+		<p><button type="submit" >Get tweets!</button></p>
+		<p>Why "check that tweet"? Because misinformation spreads fast! Technology to identify harmful false information is getitng better everyday, but many organizations don't have access to these resources and still do incredible work by manually fact checking social media posts. This tool helps identify users that have the potential to reach a large audience to prioritize which tweets to focus on.</p>
+	</div>
+	</form>
+</body>
+</html>

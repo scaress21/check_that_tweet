@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tweets to Check</title>
+	<style>
+
+.label {
+	color: darkslategrey;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body {
+  background-color: AliceBlue;
+}
+table {
+  border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+
+	font-size: 11pt;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+th {
+	background-color:Gainsboro;
+}
+td {
+		border: 1px solid black;
+}
+tr:hover {background-color: #96d9ff}
+img {
+  width: 50%;
+  height: auto;
+}
+
+</style>
+</head>
+<body>
+<img src="{{url_for('static', filename='header2.png')}}" alt="Check that tweet yo self">
+<!-- table formatting help from https://stackoverflow.com/questions/22180993/pandas-dataframe-display-on-a-webpage/22233851 -->
+<div style:"overflow-x:auto;">
+{{table | safe}}
+</div>
+</body>
+</html>
