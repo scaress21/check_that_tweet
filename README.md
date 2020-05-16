@@ -1,5 +1,6 @@
 ![Check That Tweet Yo Self](./assets/logo_check.png)
 ## Prioritizing Fact-Checking During Disasters
+Alina Ingel, Brittney Hosac, and Stephanie Caress
 
 ### Problem Statement:
 During times of crisis, people seek as much information as possible to make the best choices for their safety. A large amount of this information is spread through social media but unfortunately some posts can be misleading or misinterpreted. On rare occasions, users intentionally spread misinformation. Additionally, the volume of posts makes it impossible to thoroughly research everything shared. How can emergency management agencies prioritize which posts to thoroughly fact-check during a disaster?
