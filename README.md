@@ -2,6 +2,8 @@
 ## Prioritizing Fact-Checking During Disasters
 Alina Ingel, Brittney Hosac, and Stephanie Caress
 
+##### Overview: [1. Gathering Tweets](https://github.com/scaress21/check_that_tweet/blob/master/code/01_Gathering_Tweets.ipynb) | [2. Cleaning](https://github.com/scaress21/check_that_tweet/blob/master/code/02_Cleaning.ipynb) | [3. Tweet EDA](https://github.com/scaress21/check_that_tweet/blob/master/code/03A_Tweet_EDA.ipynb) | [4. Gathering Users](https://github.com/scaress21/check_that_tweet/blob/master/code/04_Gathering_User_Data.ipynb) | [5. Linear Regression](https://github.com/scaress21/check_that_tweet/blob/master/code/05A_Linear_Regression_Phrases.ipynb) | [6. Clustering](https://github.com/scaress21/check_that_tweet/blob/master/code/06_Clustering.ipynb) | [7. Cluster EDA](https://github.com/scaress21/check_that_tweet/blob/master/code/07_DBSCAN_Clusters_EDA.ipynb) | [Flask App](https://github.com/scaress21/check_that_tweet/blob/master/app.py)
+
 ### Problem Statement:
 During times of crisis, people seek as much information as possible to make the best choices for their safety. A large amount of this information is spread through social media but unfortunately some posts can be misleading or misinterpreted. Additionally, the volume of posts makes it impossible to thoroughly research everything shared. 
 
